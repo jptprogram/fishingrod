@@ -10,3 +10,50 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Components */
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.h1 {
+  color: #F44336;
+  size: 24px;
+  margin-top: 0px;
+  padding: 3px;
+}
+
+.p {
+  color: #F44336;
+  size: 24px;
+  margin-top: 0px;
+}
+.notifications { display: grid;
+  grid-template-columns: 1fr 1fr ;
+  flex-grow: 1;
+  column-gap: 16px;
+  row-gap: 16px;
+  margin: 0px;
+  padding: 0px;
+}
+.notifications1 { display: grid;
+  grid-template-columns: 1fr ;
+  flex-grow: 1;
+  column-gap: 16px;
+  row-gap: 16px;
+  margin: 0px;
+  padding: 0px;
+}

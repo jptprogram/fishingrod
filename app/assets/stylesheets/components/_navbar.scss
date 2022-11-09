@@ -1,12 +1,37 @@
 .navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.15);
+
+}
+.navbar-lewagon img {
+  width: 130px;
+  height: 130px;
+  margin-bottom: 20px;
+}
+.navbar-lewagon1 {
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+  align-items: center;
+  height: 70px;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.15);
+  background-color: #243038;
+  position: -webkit-sticky;
+	position: sticky;
+	top: 20;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
-}
-
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-lewagon2 {
+  display: flex;
+  justify-content: left;
+  justify-items: left;
+  align-items: center;
+  height: 500px;
+  box-shadow: 5px 0 10px rgba(0,0,0,0.15);
+ ;
+;
 }
